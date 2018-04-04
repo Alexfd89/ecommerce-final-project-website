@@ -1,0 +1,83 @@
+
+body{
+    background-color: white !important;
+}
+
+.hr {
+    border-bottom: 1px solid grey !important;
+}
+
+
+/*****************Icons******************/
+.material-icons{
+    vertical-align: middle !important;
+}
+
+.icon-color{
+    color: #343A40 !important;
+}
+
+.center {
+    margin: auto !important;
+    width: 50% !important;
+    padding: 10px !important;
+}
+
+.center div{
+    padding: 2px !important;
+}
+
+#map{
+    margin: auto !important;
+    width: 90% !important;
+    height: 72% !important;
+    border-radius: 7px !important;    
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .last-items{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    .search-items > div > a > img{
+        width: 30% !important;
+        height: 30% !important;
+    }
+
+    .search-items > div{
+
+        width: 150px !important;
+        height: 210px !important;
+        margin-bottom: 10px !important;
+    }
+    .s-cart{
+        width: 100% !important;
+    }
+    #map{
+        overflow: none !important;
+    }
+    .search-items > div > div > a{
+
+        position: absolute;
+        bottom: 0px;
+    }
+    .search-content{
+        margin-top: 20px !important;
+    }
+    a.admin{
+        margin-bottom: 20px !important;
+    }
+    .log-in{
+        margin-top: 10px !important;
+    }
+    #shop_cart span:nth-child(1){
+        position: relative !important;
+    }
+    #shop_count{
+        margin: 0 !important;
+    }
+}
